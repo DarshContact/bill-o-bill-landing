@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Styles -->
@@ -23,7 +25,7 @@
                 <i class="fas fa-file-invoice-dollar"></i>
                 <span>Bill-o-Bill</span>
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
                 <a href="#problems">Problems</a>
                 <a href="#solution">Solution</a>
                 <a href="#features">Features</a>
@@ -34,7 +36,7 @@
                 <a href="#demo" class="btn btn-outline">Book Demo</a>
                 <a href="#trial" class="btn btn-primary">Start Free Trial</a>
             </div>
-            <button class="mobile-toggle" id="mobileToggle">
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -47,7 +49,14 @@
         <div class="hero-bg">
             <div class="gradient-orb orb-1"></div>
             <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
             <div class="grid-overlay"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"><i class="fas fa-chart-line"></i></div>
+                <div class="shape shape-2"><i class="fas fa-file-invoice"></i></div>
+                <div class="shape shape-3"><i class="fas fa-robot"></i></div>
+                <div class="shape shape-4"><i class="fas fa-shield-alt"></i></div>
+            </div>
         </div>
         <div class="container hero-container">
             <div class="hero-badge animate-fade">
@@ -72,14 +81,17 @@
             </div>
             <div class="hero-stats animate-slide-up-delay-3">
                 <div class="stat-card">
+                    <i class="fas fa-clock stat-icon"></i>
                     <div class="stat-number" data-target="95">0</div>
                     <div class="stat-label">% Time Reduction</div>
                 </div>
                 <div class="stat-card">
+                    <i class="fas fa-bolt stat-icon"></i>
                     <div class="stat-number" data-target="50">0</div>
                     <div class="stat-label">% Faster Processing</div>
                 </div>
                 <div class="stat-card">
+                    <i class="fas fa-users stat-icon"></i>
                     <div class="stat-number" data-target="200">0</div>
                     <div class="stat-label">+ Clients Managed</div>
                 </div>
@@ -249,9 +261,9 @@
                     <h3>PDF OCR</h3>
                     <p>Extract data from invoices automatically with AI precision. No more manual data entry.</p>
                     <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> 76% Accuracy Rate</li>
-                        <li><i class="fas fa-check"></i> Multi-format Support</li>
-                        <li><i class="fas fa-check"></i> Instant Processing</li>
+                        <li><i class="fas fa-check-circle"></i> 76% Accuracy Rate</li>
+                        <li><i class="fas fa-check-circle"></i> Multi-format Support</li>
+                        <li><i class="fas fa-check-circle"></i> Instant Processing</li>
                     </ul>
                 </div>
                 <div class="feature-card">
@@ -262,9 +274,9 @@
                     <h3>GST Reconciliation</h3>
                     <p>Automated tax matching & validation in seconds. Eliminate ITC mismatches completely.</p>
                     <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> Auto-Matching</li>
-                        <li><i class="fas fa-check"></i> Error Detection</li>
-                        <li><i class="fas fa-check"></i> Real-time Updates</li>
+                        <li><i class="fas fa-check-circle"></i> Auto-Matching</li>
+                        <li><i class="fas fa-check-circle"></i> Error Detection</li>
+                        <li><i class="fas fa-check-circle"></i> Real-time Updates</li>
                     </ul>
                 </div>
                 <div class="feature-card">
@@ -275,9 +287,9 @@
                     <h3>One-Click Filing</h3>
                     <p>Submit returns with single click accuracy. Direct integration with GST portal.</p>
                     <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> Instant Submission</li>
-                        <li><i class="fas fa-check"></i> Auto-Validation</li>
-                        <li><i class="fas fa-check"></i> Confirmation Tracking</li>
+                        <li><i class="fas fa-check-circle"></i> Instant Submission</li>
+                        <li><i class="fas fa-check-circle"></i> Auto-Validation</li>
+                        <li><i class="fas fa-check-circle"></i> Confirmation Tracking</li>
                     </ul>
                 </div>
                 <div class="feature-card">
@@ -288,9 +300,9 @@
                     <h3>Multi-Client Dashboard</h3>
                     <p>Manage all clients from one powerful interface. Complete overview at your fingertips.</p>
                     <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> Unified View</li>
-                        <li><i class="fas fa-check"></i> Status Tracking</li>
-                        <li><i class="fas fa-check"></i> Bulk Operations</li>
+                        <li><i class="fas fa-check-circle"></i> Unified View</li>
+                        <li><i class="fas fa-check-circle"></i> Status Tracking</li>
+                        <li><i class="fas fa-check-circle"></i> Bulk Operations</li>
                     </ul>
                 </div>
             </div>
