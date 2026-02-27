@@ -3,21 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bill-o-Bill | AI-Powered Accounting Automation for Indian Compliance</title>
-    <meta name="description" content="AI-Native Accounting Automation Platform for CAs. Reduce GST reconciliation time by 95%. Start your free trial today!">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
-    <!-- Fonts -->
+    <!-- Primary Meta Tags -->
+    <title>Bill-o-Bill | AI-Powered Accounting Automation for Indian CAs</title>
+    <meta name="title" content="Bill-o-Bill | AI-Powered Accounting Automation for Indian CAs">
+    <meta name="description" content="Transform your accounting practice with AI-powered GST reconciliation, automated billing, and intelligent tax compliance. Reduce reconciliation time by 95%. Trusted by 200+ CAs.">
+    <meta name="keywords" content="accounting automation, GST software, tax reconciliation, CA software, billing automation, Indian accounting, GST filing, invoice management, AI accounting">
+    <meta name="author" content="Bill-o-Bill">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#10b981">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bill-o-bill.com/">
+    <meta property="og:title" content="Bill-o-Bill | AI Accounting Automation">
+    <meta property="og:description" content="Reduce GST reconciliation time by 95% with AI-powered automation.">
+    <meta property="og:image" content="https://bill-o-bill.com/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Bill-o-Bill | AI Accounting Automation">
+    <meta property="twitter:description" content="Reduce GST reconciliation time by 95%.">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://bill-o-bill.com/">
+    
+    <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Bill-o-Bill",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "AI-powered accounting automation for Indian CAs",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "156"
+      }
+    }
+    </script>
 </head>
-<body>
+<body class="no-scroll">
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <i class="fas fa-file-invoice-dollar"></i>
+            </div>
+            <h1 class="preloader-title">Bill-o-Bill</h1>
+            <div class="preloader-bar">
+                <div class="preloader-progress" id="preloaderProgress"></div>
+            </div>
+            <p class="preloader-text">Loading...</p>
+        </div>
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
@@ -44,463 +100,294 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-bg">
-            <div class="gradient-orb orb-1"></div>
-            <div class="gradient-orb orb-2"></div>
-            <div class="gradient-orb orb-3"></div>
-            <div class="grid-overlay"></div>
-            <div class="floating-shapes">
-                <div class="shape shape-1"><i class="fas fa-chart-line"></i></div>
-                <div class="shape shape-2"><i class="fas fa-file-invoice"></i></div>
-                <div class="shape shape-3"><i class="fas fa-robot"></i></div>
-                <div class="shape shape-4"><i class="fas fa-shield-alt"></i></div>
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg">
+                <div class="gradient-orb orb-1"></div>
+                <div class="gradient-orb orb-2"></div>
+                <div class="gradient-orb orb-3"></div>
+                <div class="grid-overlay"></div>
             </div>
-        </div>
-        <div class="container hero-container">
-            <div class="hero-badge animate-fade">
-                <span class="badge-dot"></span>
-                🚀 Launching April 2026 - Early Access Available
-            </div>
-            <h1 class="hero-title animate-slide-up">
-                Accounts <span class="highlight">"Managed!"</span><br>
-                The <span class="highlight-green">Oh!</span> Factor
-            </h1>
-            <p class="hero-subtitle animate-slide-up-delay">
-                AI-Native Accounting Automation for Indian Compliance.<br>
-                Reduce GST reconciliation time by <strong>95%</strong> and transform 40 hours into just 2 hours per month.
-            </p>
-            <div class="hero-cta animate-slide-up-delay-2">
-                <a href="#trial" class="btn btn-primary btn-lg">
-                    Start Free Trial <i class="fas fa-arrow-right"></i>
-                </a>
-                <a href="#demo" class="btn btn-outline btn-lg">
-                    <i class="fas fa-play-circle"></i> Book a Demo
-                </a>
-            </div>
-            <div class="hero-stats animate-slide-up-delay-3">
-                <div class="stat-card">
-                    <i class="fas fa-clock stat-icon"></i>
-                    <div class="stat-number" data-target="95">0</div>
-                    <div class="stat-label">% Time Reduction</div>
+            <div class="container hero-container">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Launching April 2026 - Early Access
                 </div>
-                <div class="stat-card">
-                    <i class="fas fa-bolt stat-icon"></i>
-                    <div class="stat-number" data-target="50">0</div>
-                    <div class="stat-label">% Faster Processing</div>
+                <h1 class="hero-title">
+                    Accounts <span class="highlight">Managed</span><br>
+                    The <span class="highlight-green">Professional</span> Choice
+                </h1>
+                <p class="hero-subtitle">
+                    AI-native accounting automation for Indian compliance. Reduce GST reconciliation time by 95% and transform 40 hours into 2 hours per month.
+                </p>
+                <div class="hero-cta">
+                    <a href="#trial" class="btn btn-primary btn-lg">
+                        Start Free Trial <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#demo" class="btn btn-outline btn-lg">
+                        <i class="fas fa-play-circle"></i> Book Demo
+                    </a>
                 </div>
-                <div class="stat-card">
-                    <i class="fas fa-users stat-icon"></i>
-                    <div class="stat-number" data-target="200">0</div>
-                    <div class="stat-label">+ Clients Managed</div>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-clock stat-icon"></i>
+                        <div class="stat-number" data-target="95">0</div>
+                        <div class="stat-label">% Time Reduction</div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-bolt stat-icon"></i>
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">% Faster Processing</div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users stat-icon"></i>
+                        <div class="stat-number" data-target="200">0</div>
+                        <div class="stat-label">+ Clients Managed</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="scroll-indicator">
-            <div class="mouse"></div>
-            <span>Scroll to explore</span>
-        </div>
-    </section>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <span>Scroll</span>
+            </div>
+        </section>
 
-    <!-- Problems Section -->
-    <section class="problems section" id="problems">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">The Challenge</span>
-                <h2 class="section-title">Why Traditional Accounting Fails</h2>
-                <p class="section-subtitle">Manual processes costing you time, money, and peace of mind</p>
-            </div>
-            <div class="problems-grid">
-                <div class="problem-card">
-                    <div class="problem-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Fragmented Workflows</h3>
-                    <p>Manual bookkeeping across disconnected spreadsheets creates errors, delays, and zero auditability.</p>
-                    <div class="problem-tag high-risk">High Risk</div>
+        <!-- Problems Section -->
+        <section class="problems section" id="problems">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">The Challenge</span>
+                    <h2 class="section-title">Why Traditional Accounting Fails</h2>
+                    <p class="section-subtitle">Manual processes costing time and money</p>
                 </div>
-                <div class="problem-card">
-                    <div class="problem-icon">
-                        <i class="fas fa-coins"></i>
+                <div class="problems-grid">
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Fragmented Workflows</h3>
+                        <p>Disconnected spreadsheets create errors and zero auditability.</p>
+                        <div class="problem-tag high-risk">High Risk</div>
                     </div>
-                    <h3>15-20% Higher Costs</h3>
-                    <p>Because margins are razor-thin, even expenses like legal fees or software updates raise overall costs.</p>
-                    <div class="problem-tag cost-impact">Cost Impact</div>
-                </div>
-                <div class="problem-card">
-                    <div class="problem-icon">
-                        <i class="fas fa-file-contract"></i>
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="fas fa-coins"></i></div>
+                        <h3>15-20% Higher Costs</h3>
+                        <p>Razor-thin margins impacted by compliance overhead.</p>
+                        <div class="problem-tag cost-impact">Cost Impact</div>
                     </div>
-                    <h3>ITC Nightmares</h3>
-                    <p>70%+ businesses face supplier-buyer mismatches, denied tax credits, and penalty risks.</p>
-                    <div class="problem-tag compliance-risk">Compliance Risk</div>
-                </div>
-                <div class="problem-card">
-                    <div class="problem-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="fas fa-file-contract"></i></div>
+                        <h3>ITC Nightmares</h3>
+                        <p>70%+ face mismatches and denied tax credits.</p>
+                        <div class="problem-tag compliance-risk">Compliance Risk</div>
                     </div>
-                    <h3>Portal Glitches</h3>
-                    <p>GSTN downtime and low digital literacy force manual workarounds and filing delays.</p>
-                    <div class="problem-tag system-issue">System Issue</div>
-                </div>
-                <div class="problem-card">
-                    <div class="problem-icon">
-                        <i class="fas fa-users-slash"></i>
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="fas fa-triangle-exclamation"></i></div>
+                        <h3>Portal Glitches</h3>
+                        <p>GSTN downtime forces manual workarounds.</p>
+                        <div class="problem-tag system-issue">System Issue</div>
                     </div>
-                    <h3>Expertise Shortage</h3>
-                    <p>Hiring costs ₹10-15K/month while non-standardized systems weaken financial controls.</p>
-                    <div class="problem-tag resource-gap">Resource Gap</div>
-                </div>
-                <div class="problem-card">
-                    <div class="problem-icon">
-                        <i class="fas fa-file-invoice"></i>
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="fas fa-users-slash"></i></div>
+                        <h3>Expertise Shortage</h3>
+                        <p>Hiring costs ₹10-15K/month with weak controls.</p>
+                        <div class="problem-tag resource-gap">Resource Gap</div>
                     </div>
-                    <h3>Invoice Chaos</h3>
-                    <p>Manual collation via email/WhatsApp across hundreds of non-standardized client invoices.</p>
-                    <div class="problem-tag time-waste">Time Waste</div>
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="fas fa-file-invoice"></i></div>
+                        <h3>Invoice Chaos</h3>
+                        <p>Manual collation across hundreds of invoices.</p>
+                        <div class="problem-tag time-waste">Time Waste</div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Solution Section -->
-    <section class="solution section" id="solution">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">The Solution</span>
-                <h2 class="section-title">How Bill-o-Bill Transforms Your Practice</h2>
-                <p class="section-subtitle">AI-Native Accounting Automation for Indian Compliance</p>
-            </div>
-            <div class="solution-content">
+        <!-- Solution Section -->
+        <section class="solution section" id="solution">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">The Solution</span>
+                    <h2 class="section-title">How Bill-o-Bill Transforms Your Practice</h2>
+                    <p class="section-subtitle">AI-native accounting automation</p>
+                </div>
                 <div class="solution-layers">
                     <div class="layer intelligence">
-                        <div class="layer-header">
-                            <i class="fas fa-brain"></i>
-                            <h3>Intelligence Layer</h3>
-                        </div>
+                        <div class="layer-header"><i class="fas fa-brain"></i><h3>Intelligence Layer</h3></div>
                         <div class="layer-features">
                             <div class="layer-feature">
-                                <span class="feature-icon">📄</span>
-                                <div>
-                                    <strong>Invoice OCR</strong>
-                                    <span>76% Accuracy</span>
-                                </div>
+                                <i class="fas fa-file-pdf feature-icon"></i>
+                                <div><strong>Invoice OCR</strong><span>76% Accuracy</span></div>
                             </div>
                             <div class="layer-feature">
-                                <span class="feature-icon">🔄</span>
-                                <div>
-                                    <strong>Auto Matching</strong>
-                                    <span>70-80% Success</span>
-                                </div>
+                                <i class="fas fa-sync-alt feature-icon"></i>
+                                <div><strong>Auto Matching</strong><span>70-80% Success</span></div>
                             </div>
                             <div class="layer-feature">
-                                <span class="feature-icon">⚠️</span>
-                                <div>
-                                    <strong>Anomaly Detection</strong>
-                                    <span>40%+ Improvement</span>
-                                </div>
+                                <i class="fas fa-triangle-exclamation feature-icon"></i>
+                                <div><strong>Anomaly Detection</strong><span>40%+ Improvement</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="layer core">
-                        <div class="layer-header">
-                            <i class="fas fa-cogs"></i>
-                            <h3>Core Modules</h3>
-                        </div>
+                        <div class="layer-header"><i class="fas fa-cogs"></i><h3>Core Modules</h3></div>
                         <div class="layer-features">
                             <div class="layer-feature">
-                                <span class="feature-icon">💰</span>
-                                <div>
-                                    <strong>Billing Engine</strong>
-                                    <span>Automated Invoicing</span>
-                                </div>
+                                <i class="fas fa-calculator feature-icon"></i>
+                                <div><strong>Billing Engine</strong><span>Automated</span></div>
                             </div>
                             <div class="layer-feature">
-                                <span class="feature-icon">📊</span>
-                                <div>
-                                    <strong>GST Filing</strong>
-                                    <span>One-Click Submission</span>
-                                </div>
+                                <i class="fas fa-file-invoice feature-icon"></i>
+                                <div><strong>GST Filing</strong><span>One-Click</span></div>
                             </div>
                             <div class="layer-feature">
-                                <span class="feature-icon">🧮</span>
-                                <div>
-                                    <strong>Tax Logic</strong>
-                                    <span>Auto Calculations</span>
-                                </div>
+                                <i class="fas fa-percent feature-icon"></i>
+                                <div><strong>Tax Logic</strong><span>Auto Calculations</span></div>
                             </div>
                             <div class="layer-feature">
-                                <span class="feature-icon">📈</span>
-                                <div>
-                                    <strong>Analytics</strong>
-                                    <span>Real-time Insights</span>
-                                </div>
+                                <i class="fas fa-chart-line feature-icon"></i>
+                                <div><strong>Analytics</strong><span>Real-time</span></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Features Section -->
-    <section class="features section" id="features">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Core Features</span>
-                <h2 class="section-title">Powerful Tools for Modern CAs</h2>
-                <p class="section-subtitle">Everything you need to automate your accounting practice</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-number">01</div>
-                    <div class="feature-icon">
-                        <i class="fas fa-file-pdf"></i>
-                    </div>
-                    <h3>PDF OCR</h3>
-                    <p>Extract data from invoices automatically with AI precision. No more manual data entry.</p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> 76% Accuracy Rate</li>
-                        <li><i class="fas fa-check-circle"></i> Multi-format Support</li>
-                        <li><i class="fas fa-check-circle"></i> Instant Processing</li>
-                    </ul>
+        <!-- Features Section -->
+        <section class="features section" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Core Features</span>
+                    <h2 class="section-title">Powerful Tools for Modern CAs</h2>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-number">02</div>
-                    <div class="feature-icon">
-                        <i class="fas fa-sync-alt"></i>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-number">01</div>
+                        <div class="feature-icon"><i class="fas fa-file-pdf"></i></div>
+                        <h3>PDF OCR</h3>
+                        <p>Extract invoice data automatically with AI precision.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> 76% Accuracy</li>
+                            <li><i class="fas fa-check-circle"></i> Multi-format</li>
+                            <li><i class="fas fa-check-circle"></i> Instant</li>
+                        </ul>
                     </div>
-                    <h3>GST Reconciliation</h3>
-                    <p>Automated tax matching & validation in seconds. Eliminate ITC mismatches completely.</p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> Auto-Matching</li>
-                        <li><i class="fas fa-check-circle"></i> Error Detection</li>
-                        <li><i class="fas fa-check-circle"></i> Real-time Updates</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-number">03</div>
-                    <div class="feature-icon">
-                        <i class="fas fa-mouse-pointer"></i>
+                    <div class="feature-card">
+                        <div class="feature-number">02</div>
+                        <div class="feature-icon"><i class="fas fa-sync-alt"></i></div>
+                        <h3>GST Reconciliation</h3>
+                        <p>Automated tax matching in seconds.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Auto-Matching</li>
+                            <li><i class="fas fa-check-circle"></i> Error Detection</li>
+                            <li><i class="fas fa-check-circle"></i> Real-time</li>
+                        </ul>
                     </div>
-                    <h3>One-Click Filing</h3>
-                    <p>Submit returns with single click accuracy. Direct integration with GST portal.</p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> Instant Submission</li>
-                        <li><i class="fas fa-check-circle"></i> Auto-Validation</li>
-                        <li><i class="fas fa-check-circle"></i> Confirmation Tracking</li>
-                    </ul>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-number">04</div>
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-pie"></i>
+                    <div class="feature-card">
+                        <div class="feature-number">03</div>
+                        <div class="feature-icon"><i class="fas fa-mouse-pointer"></i></div>
+                        <h3>One-Click Filing</h3>
+                        <p>Submit returns with single click accuracy.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Instant</li>
+                            <li><i class="fas fa-check-circle"></i> Auto-Validation</li>
+                            <li><i class="fas fa-check-circle"></i> Tracking</li>
+                        </ul>
                     </div>
-                    <h3>Multi-Client Dashboard</h3>
-                    <p>Manage all clients from one powerful interface. Complete overview at your fingertips.</p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> Unified View</li>
-                        <li><i class="fas fa-check-circle"></i> Status Tracking</li>
-                        <li><i class="fas fa-check-circle"></i> Bulk Operations</li>
-                    </ul>
+                    <div class="feature-card">
+                        <div class="feature-number">04</div>
+                        <div class="feature-icon"><i class="fas fa-chart-pie"></i></div>
+                        <h3>Multi-Client Dashboard</h3>
+                        <p>Manage all clients from one interface.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Unified View</li>
+                            <li><i class="fas fa-check-circle"></i> Status Tracking</li>
+                            <li><i class="fas fa-check-circle"></i> Bulk Ops</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Results Section -->
-    <section class="results section" id="results">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Proven Results</span>
-                <h2 class="section-title">Real Impact, Real Value</h2>
-                <p class="section-subtitle">See the dramatic difference Bill-o-Bill makes</p>
-            </div>
-            <div class="results-grid">
-                <div class="result-card">
-                    <div class="result-icon">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <h3>50% Time Savings</h3>
-                    <p class="result-desc">Days to Minutes - Automated reconciliation cuts processing time by 50%</p>
-                    <div class="result-stat">
-                        <span class="stat-big">50%</span>
-                        <span class="stat-small">Faster Processing</span>
-                    </div>
+        <!-- Results Section -->
+        <section class="results section" id="results">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Proven Results</span>
+                    <h2 class="section-title">Real Impact</h2>
                 </div>
-                <div class="result-card">
-                    <div class="result-icon">
-                        <i class="fas fa-bullseye"></i>
+                <div class="results-grid">
+                    <div class="result-card">
+                        <div class="result-icon"><i class="fas fa-clock"></i></div>
+                        <h3>50% Time Savings</h3>
+                        <p>Automated reconciliation</p>
+                        <div class="result-stat"><span class="stat-big">50%</span><span class="stat-small">Faster</span></div>
                     </div>
-                    <h3>30-50% Fewer Errors</h3>
-                    <p class="result-desc">AI validation eliminates GST errors and automates 90%+ transaction matching</p>
-                    <div class="result-stat">
-                        <span class="stat-big">95%</span>
-                        <span class="stat-small">Accuracy Rate</span>
+                    <div class="result-card">
+                        <div class="result-icon"><i class="fas fa-bullseye"></i></div>
+                        <h3>95% Accuracy</h3>
+                        <p>AI validation eliminates errors</p>
+                        <div class="result-stat"><span class="stat-big">95%</span><span class="stat-small">Accurate</span></div>
                     </div>
-                </div>
-                <div class="result-card">
-                    <div class="result-icon">
-                        <i class="fas fa-shield-alt"></i>
+                    <div class="result-card">
+                        <div class="result-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>100% Audit-Ready</h3>
+                        <p>Real-time compliance</p>
+                        <div class="result-stat"><span class="stat-big">24/7</span><span class="stat-small">Monitoring</span></div>
                     </div>
-                    <h3>100% Audit-Ready</h3>
-                    <p class="result-desc">Real-time dashboards show filing status, ITC claims, and deadlines</p>
-                    <div class="result-stat">
-                        <span class="stat-big">24/7</span>
-                        <span class="stat-small">Compliance Monitoring</span>
-                    </div>
-                </div>
-                <div class="result-card">
-                    <div class="result-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>3x Scale</h3>
-                    <p class="result-desc">Manage 200+ clients without adding staff—month-end close in days</p>
-                    <div class="result-stat">
-                        <span class="stat-big">200+</span>
-                        <span class="stat-small">Clients Managed</span>
+                    <div class="result-card">
+                        <div class="result-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>3x Scale</h3>
+                        <p>Manage 200+ clients</p>
+                        <div class="result-stat"><span class="stat-big">200+</span><span class="stat-small">Clients</span></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Why Now Section -->
-    <section class="why-now section" id="why-now">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Perfect Timing</span>
-                <h2 class="section-title">Why Now is the Time</h2>
-                <p class="section-subtitle">Three powerful forces converging at the perfect moment</p>
-            </div>
-            <div class="why-now-grid">
-                <div class="why-now-card">
-                    <div class="why-now-icon">
-                        <i class="fas fa-hourglass-half"></i>
-                    </div>
-                    <h3>GST Maturation</h3>
-                    <p>7 years post-launch, initial issues resolved, market ready for automation</p>
-                </div>
-                <div class="why-now-card">
-                    <div class="why-now-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>AI Mainstream Adoption</h3>
-                    <p>ChatGPT normalized AI, production-ready tech, 10× cost reduction</p>
-                </div>
-                <div class="why-now-card">
-                    <div class="why-now-icon">
-                        <i class="fas fa-laptop"></i>
-                    </div>
-                    <h3>Digital Transformation</h3>
-                    <p>COVID forced cloud adoption, SaaS normalized, millennials embracing tech</p>
-                </div>
-            </div>
-            <div class="urgency-banner">
-                <div class="urgency-content">
-                    <i class="fas fa-exclamation-circle"></i>
-                    <div>
-                        <strong>The Window is Closing</strong>
-                        <p>Funded competitors emerging • Tally catching up on AI • International giants entering</p>
-                    </div>
-                </div>
-                <a href="#early-access" class="btn btn-white">Get Early Access</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta section" id="cta">
-        <div class="container">
-            <div class="cta-box">
-                <div class="cta-content">
-                    <h2>Ready to Transform Your Accounting Practice?</h2>
-                    <p>Join hundreds of CAs who are already saving 40 hours per month with Bill-o-Bill</p>
+        <!-- CTA Section -->
+        <section class="cta section" id="cta">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Ready to Transform Your Practice?</h2>
+                    <p>Join hundreds of CAs saving 40 hours monthly</p>
                     <div class="cta-buttons">
-                        <a href="#trial" class="btn btn-primary btn-lg">
-                            Start Free Trial <i class="fas fa-arrow-right"></i>
-                        </a>
-                        <a href="#demo" class="btn btn-outline-white btn-lg">
-                            Book a Demo
-                        </a>
+                        <a href="#trial" class="btn btn-primary btn-lg">Start Free Trial <i class="fas fa-arrow-right"></i></a>
+                        <a href="#demo" class="btn btn-outline-white btn-lg">Book Demo</a>
                     </div>
                     <div class="cta-features">
-                        <div class="cta-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>14-day free trial</span>
-                        </div>
-                        <div class="cta-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>No credit card required</span>
-                        </div>
-                        <div class="cta-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Full feature access</span>
-                        </div>
+                        <div class="cta-feature"><i class="fas fa-check-circle"></i> 14-day trial</div>
+                        <div class="cta-feature"><i class="fas fa-check-circle"></i> No credit card</div>
+                        <div class="cta-feature"><i class="fas fa-check-circle"></i> Full access</div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer" id="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <a href="#" class="logo">
-                        <i class="fas fa-file-invoice-dollar"></i>
-                        <span>Bill-o-Bill</span>
-                    </a>
-                    <p>AI-Native Accounting Automation for Indian Compliance</p>
-                    <div class="app-stores">
-                        <a href="#" class="app-store">
-                            <i class="fab fa-google-play"></i>
-                            <div>
-                                <small>Get it on</small>
-                                <strong>Google Play</strong>
-                            </div>
-                        </a>
-                        <a href="#" class="app-store">
-                            <i class="fab fa-apple"></i>
-                            <div>
-                                <small>Download on</small>
-                                <strong>App Store</strong>
-                            </div>
-                        </a>
-                    </div>
+                    <a href="#" class="logo"><i class="fas fa-file-invoice-dollar"></i><span>Bill-o-Bill</span></a>
+                    <p>AI-native accounting automation</p>
                 </div>
                 <div class="footer-links">
                     <div class="footer-col">
                         <h4>Product</h4>
                         <a href="#features">Features</a>
                         <a href="#pricing">Pricing</a>
-                        <a href="#demo">Book Demo</a>
-                        <a href="#trial">Free Trial</a>
                     </div>
                     <div class="footer-col">
                         <h4>Company</h4>
                         <a href="#about">About</a>
-                        <a href="#blog">Blog</a>
                         <a href="#contact">Contact</a>
-                        <a href="#careers">Careers</a>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Resources</h4>
-                        <a href="#docs">Documentation</a>
-                        <a href="#help">Help Center</a>
-                        <a href="#api">API</a>
-                        <a href="#status">Status</a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 Bill-o-Bill. All rights reserved.</p>
-                <div class="footer-legal">
-                    <a href="#privacy">Privacy Policy</a>
-                    <a href="#terms">Terms of Service</a>
-                </div>
             </div>
         </div>
     </footer>
